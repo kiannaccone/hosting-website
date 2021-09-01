@@ -1,3 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+header {
+  background-image: url(/hosting-website/images/windows.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  color: black;
+  font-size: 30px;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+.home {
+  position: absolute;
+  font-size: 30px;
+  padding: 5px 20px;
+}
+
+.welcome h1 {
+  left: 0;
+  line-height: 200px;
+  margin-top: -150px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  font-size: 70px;
+  font-weight: 1000px;
+}
+
+.intro p {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 350px;
+  font-size: 17px;
+  font-weight: 500px;
+}
+
+.pasta h1 {
+  text-align: center;
+}
+
 body {
   background: white;
 }
@@ -8,3 +69,4 @@ img {
   margin-right: auto;
   max-width: 30%;
   height: auto;
+}
