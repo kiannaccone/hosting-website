@@ -88,8 +88,19 @@ header {
   padding-bottom: 40px;
 }
 
-.dessert h1 {
+.dessert h1{
   text-align: center;
+}
+
+.dessert h2 {
+  text-align: center;
+}
+
+.dessert p {
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  line-height: 1.5;
 }
 
 .dessert body {
@@ -102,4 +113,7 @@ header {
   margin-right: auto;
   max-width: 30%;
   height: auto;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
 }
